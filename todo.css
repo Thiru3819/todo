@@ -1,0 +1,17 @@
+#title{
+
+display: flex;
+justify-content: center;
+color: aliceblue;
+}
+
+#input{
+border-radius: 15px;}
+
+
+html{
+    background-color: black;
+}
+button{
+    border-radius: 15px;
+}

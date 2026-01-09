@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<link rel='stylesheet' href="todo.css">
+<h1 id="title">::TO DO List::</h1>
+<input id="input">
+<button id="but" onclick="button()">ADD</button>
+<ol style="color: aliceblue;" id="list">
+    
+</ol>
+
+
+
+
+<script>
+
+function button(){
+    var inputtask=document.getElementById("input").value;
+    var li=document.getElementById('list');
+    var ltem=document.createElement('li');
+    var box=document.createElement('input');
+    box.type="checkbox"
+    box.tagName='cbox'
+    box.onclick=cross;
+    ltem.textContent=inputtask
+    ltem.appendChild(box);
+    li.appendChild(ltem);
+
+}
+function cross(){
+ this.parentElement.remove()
+}
+
+</script>
+
+</html>
