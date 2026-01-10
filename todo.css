@@ -1,17 +1,29 @@
 #title{
 
 display: flex;
-justify-content: center;
+justify-content: center ;
 color: aliceblue;
 }
 
 #input{
-border-radius: 15px;}
+border-radius: 15px;
+border-color: rgb(0, 255, 81);
+}
 
-
+#input:hover{
+    font-size: 15px;
+    transition:0.2s ease;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
 html{
     background-color: black;
 }
 button{
-    border-radius: 15px;
+border-radius: 15px;
+border-color: rgb(0, 255, 81);
+
+;
 }
